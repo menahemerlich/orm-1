@@ -1,5 +1,4 @@
 import { DataTypes, Sequelize } from "sequelize";
-import "dotenv/config";
 
 export const sequelize = new Sequelize(
     "courses_db",
